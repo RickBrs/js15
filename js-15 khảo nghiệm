@@ -1,0 +1,52 @@
+// Câu 1: B
+// Câu 2: C
+// Câu 3: B
+// Câu 4: A
+// Câu 5: C
+// Câu 6: A
+// Câu 7: D
+// Câu 8: B
+// Câu 9: Cho array m = [1,2,3,4,5,6,”hh”, “9”,80,100]. Hãy thực hiện xóa những phần tử không phải dạng number. 
+// Sau đó, tạo ra một array mới tên là mSquared thỏa mãn: mSquared[i] = pow(m[i],2).
+let m = [1,2,3,4,5,6, "hh", "9", 80, 100]
+console.log(
+    m.filter(item => !["hh", "9"].includes(item))
+)
+// Câu 10:
+let string =  "High knowledge, high return";
+let newString = string.split(' ');
+console.log(newString);
+// Câu 11:
+class People {
+    constructor(_name, _age, _address) {
+        this.name = _name
+        this.age = _age
+        this.address = _address
+    }
+    set(){
+        this.name = prompt("moi nhap ten")
+    }
+    get(){
+
+    }
+}
+class Students extends People {
+    constructor (_name, _age, _address, _id, _math, _physical, _chemical) {
+        super(_name, _age, _address)
+        this.id = _id
+        this.math = _math
+        this.physical = _physical
+        this._chemical = _chemical
+    }
+    set(){
+
+    }
+    get(){
+
+    }
+    GPA(){
+
+    }
+}
+let phucHien = new Students("PhucHien", 15, "Lam Dong", 01101110, 10, 9.5, 9.75)
+console.log(phucHien)
