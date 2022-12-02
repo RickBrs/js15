@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+section {
+    padding: 50px 0;
+}
+section h1{
+    color: #c83434;
+    font-size:60px ;
+    margin: 220px 300px 0 570px;
+    font-style: italic;
+}
+section .All span{
+color:  rgb(28, 190, 72);
+font-size: 30px;
+margin: 0 600px;
+}
+html{
+    background-image: url(https://maytinhvui.com/wp-content/uploads/2020/11/hinh-nen-may-tinh-4k-game-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section .nho-dang-nhap{
+    font-size: 20px;
+    color:	#800080;
+    margin: 0 650px;
+    font-weight: 700;
+}
+section .input-form input[type="submit"]{
+    border-radius: 15px;
+    width: 200px;
+    margin: 0 640px;
+    height: 30px;
+    background-color: #FFD700;
+}
+section .input-form input[type="submit"]:hover{
+    background-color: #B8860B;
+    color: #4957B6;
+}
+section .input-form p{
+    color: aliceblue;
+}
+section .input-form input[type="text"]{
+    color: brown;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: 	#FFDAB9;
+    width: 290px;
+    margin: 0 600px;
+    height: 30px;
+}
+section .input-form input[type="password"]{
+    color: brown;
+    border-radius: 20px;
+    width: 250px;
+    background-color: 	#FFDAB9;
+    margin: 0 620px;
+    font-size: 20px;
+    height: 30px;
+}
+section .input-form p{
+    color:#00008B ;
+    font-weight: 700;
+    margin: 0 335px 0 600px;
+}
+section .input-form a:hover{
+    color: 	sienna;
+}
